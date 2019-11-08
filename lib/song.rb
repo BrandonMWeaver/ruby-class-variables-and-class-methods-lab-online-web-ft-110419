@@ -1,4 +1,5 @@
 class Song
+  attr_accessor :count
   attr_reader :name, :artist, :genre
   
   def initialize(name, artist, genre)
