@@ -7,4 +7,8 @@ class Song
     @artist = artist
     @genre = genre
   end
+  
+  def self.count
+    return self.count++
+  end
 end
