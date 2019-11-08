@@ -9,6 +9,6 @@ class Song
   end
   
   def self.count
-    return self.count++
+    return count++
   end
 end
