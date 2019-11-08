@@ -25,4 +25,12 @@ class Song
   def self.genres
     return @@genres.uniq
   end
+  
+  def self.genre_count
+    hash = {}
+    @@genres.uniq.each do |genre|
+      hash[genre] = 0
+    end
+    pp hash
+  end
 end
